@@ -2,80 +2,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fact‑Check Detective 🕵️‍♀️</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Fact‑Check Detective</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .case {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-  <h1>🕵️ Fact‑Check Detective</h1>
-  <p>Can you uncover the truth behind viral images?</p>
-</header>
+<h1>🕵️ Fact‑Check Detective</h1>
 
-<section class="instructions">
-  <h2>🎯 Your Mission</h2>
-  <ol>
-    <li>Examine each mystery photo carefully.</li>
-    <li>Use <strong>Reverse Image Search</strong> and <strong>Lateral Reading</strong>.</li>
-    <li>Find the original source of the image.</li>
-    <li>Decide whether the image is <strong>real, edited, or misleading</strong>.</li>
-    <li>Submit your evidence using the <strong>Case File</strong>.</li>
-  </ol>
+<p>
+You are a digital detective. Your job is to check if online images are real or edited.
+Use reverse image search to find the truth.
+</p>
 
-  <div class="tools">
-    <a href="https://images.google.com/" target="_blank">🔍 Google Reverse Image Search</a>
-    <a href="https://tineye.com/" target="_blank">🧠 TinEye</a>
-  </div>
-</section>
+<p>
+🔍 Tools:
+<a href="https://images.google.com/" target="_blank">Google Reverse Image Search</a> |
+<a href="https://tineye.com/" target="_blank">TinEye</a>
+</p>
 
-<section class="cases">
+<hr>
 
-  <!-- CASE 1 -->
-  <div class="case-card">
-    <h3>🦈 Case 1: Shark on the Highway</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Shark_flood_edit.jpg"
-         alt="Shark swimming on flooded highway">
-    <p><strong>Claim:</strong> A shark was spotted swimming on a highway during a flood.</p>
-    <p class="question">Is this image real or manipulated?</p>
-  </div>
+<div class="case">
+  <h2>🦈 Case 1: Shark on the Highway</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Shark_flood_edit.jpg" alt="Shark on highway">
+  <p><b>Claim:</b> A shark was swimming on a flooded highway.</p>
+  <p>Question: Is this real or edited?</p>
+</div>
 
-  <!-- CASE 2 -->
-  <div class="case-card">
-    <h3>🌲 Case 2: The Purple Forest</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Purple_forest_edit.jpg"
-         alt="Purple forest">
-    <p><strong>Claim:</strong> This forest naturally turned purple due to climate change.</p>
-    <p class="question">What is the original source of this image?</p>
-  </div>
+<div class="case">
+  <h2>🌲 Case 2: Purple Forest</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Purple_forest_edit.jpg" alt="Purple forest">
+  <p><b>Claim:</b> This forest naturally turned purple.</p>
+  <p>Question: What is the original image?</p>
+</div>
 
-  <!-- CASE 3 -->
-  <div class="case-card">
-    <h3>🗼 Case 3: Eiffel Tower on Fire</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Eiffel_tower_fire_fake.jpg"
-         alt="Eiffel Tower fire">
-    <p><strong>Claim:</strong> A recent fire broke out at the Eiffel Tower.</p>
-    <p class="question">Is this photo accurate or misleading?</p>
-  </div>
+<div class="case">
+  <h2>🗼 Case 3: Eiffel Tower on Fire</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Eiffel_tower_fire_fake.jpg" alt="Eiffel Tower fire">
+  <p><b>Claim:</b> The Eiffel Tower caught fire.</p>
+  <p>Question: Is this image misleading?</p>
+</div>
 
-</section>
+<hr>
 
-<section class="submit">
-  <h2>📁 Submit Your Case File</h2>
-  <p>Record your findings, sources, and final verdict.</p>
+<h2>📁 Submit Your Case File</h2>
 
-  <!-- Replace with your Google Form link -->
-  <a class="submit-btn"
-     href="https://forms.gle/REPLACE_WITH_YOUR_FORM"
-     target="_blank">
-     📝 Open Case File Form
-  </a>
-</section>
+<p>
+Record your evidence and answers in the Case File form.
+</p>
 
-<footer>
-  <p>📚 Media Literacy | Think before you share</p>
-</footer>
+<p>
+<a href="https://forms.gle/REPLACE_WITH_YOUR_FORM" target="_blank">
+Open Case File Google Form
+</a>
+</p>
 
 </body>
 </html>
